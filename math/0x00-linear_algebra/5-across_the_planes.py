@@ -4,7 +4,14 @@
 
 
 def add_matrices2D(mat1, mat2):
-    """
+    """a function that adds two matrices element-wise
+
+    Args:
+        mat1 (array): a matrice
+        mat2 (array): a matrice
+
+    Returns:
+        array | None: the sum of matrices
     """
     if len(mat1) == len(mat2):
         result = []
